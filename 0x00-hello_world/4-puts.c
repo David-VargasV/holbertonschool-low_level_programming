@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-* main - main branch
-* return: 0
+* main - block
+* Return: 0
 */
 int main(void)
 {
