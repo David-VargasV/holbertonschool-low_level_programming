@@ -7,7 +7,8 @@ int main(void)
 {
 int num;
 for (num = 0; num < 10; num++)
-putchar(num);
+int n = num + 20;
+putchar(n);
 putchar('\n');
 return (0);
 }
