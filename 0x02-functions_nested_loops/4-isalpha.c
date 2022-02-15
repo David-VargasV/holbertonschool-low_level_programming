@@ -9,10 +9,15 @@
 int _isalpha(int c)
 {
 char check;
+char checkM;
 for (check = 'a'; check <= 'z'; check++)
-for (check = 'A'; check <= 'Z'; check++)
 {
 if (c == check)
+return (1);
+}
+for (checkM = 'A'; checkM <= 'Z'; checkM++)
+{
+if (c == checkM)
 return (1);
 }
 return (0);
