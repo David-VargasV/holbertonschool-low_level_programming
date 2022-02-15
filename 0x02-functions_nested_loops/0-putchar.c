@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include <main.h>
 /**
 * main - putchar
@@ -6,6 +7,6 @@
 int main(void)
 {
 putchar("_putchar");
-putchar ('\n');
-return (0)
+putchar('\n');
+return (0);
 }
