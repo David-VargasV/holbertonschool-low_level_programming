@@ -17,6 +17,7 @@ number = -number;
 }
 
 if ((number / 10) > 0)
-_putchar((number / 10) + '0');
+_putchar(number / 10);
+ 
 _putchar((number % 10) + '0');
 }
