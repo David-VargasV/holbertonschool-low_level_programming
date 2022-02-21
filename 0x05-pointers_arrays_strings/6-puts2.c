@@ -11,7 +11,7 @@ void puts2(char *str)
 int x = 0;
 int y = 0;
 
-while (str[x])
+while (str[x++])
 y++;
 for (x = 0; x < y; x += 2)
 
