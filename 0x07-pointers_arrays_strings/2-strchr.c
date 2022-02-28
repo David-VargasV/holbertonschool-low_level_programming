@@ -13,9 +13,9 @@ int x = 0;
 
 while (s[x] != '\0')
 {
+x++;
 if (s[x] == c)
 return (s + x);
-x++;
 }
 return ('\0');
 }
