@@ -19,7 +19,9 @@ result = atoi(argv[1]) * atoi(argv[2]);
 printf("%i\n", result);
 }
 else
+{
 printf("Error\n");
-
 return (1);
+}
+return (0);
 }
