@@ -26,7 +26,6 @@ for (x = 0 ; x < height; x++)
 pto[x] = (int *)malloc(sizeof(int) * width);
 if (pto[x] == NULL)
 return (NULL);
-
 for (y = 0; y < width ; y++)
 {
 pto[x][y] = 0;
