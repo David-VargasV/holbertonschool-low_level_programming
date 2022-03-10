@@ -1,12 +1,12 @@
-#More malloc, free
+More malloc, free
 
 The malloc function is used to allocate a certain amount of memory during the execution of a program. It will request a block of memory from the heap. If the request is granted, the operating system will reserve the requested amount of memory and malloc will return a pointer to the reserved space.
 
 When the amount of memory is not needed anymore, you must return it to the operating system by calling the function free.
 
-##Requirements
+Requirements
 
-###General
+General
 
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
@@ -22,7 +22,7 @@ In the following examples, the main.c files are shown as examples. You can use t
 The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
 Don’t forget to push your header file
 
-##Tasks
+Tasks
 
 0. Write a function that allocates memory using malloc.
 1. Write a function that concatenates two strings.
