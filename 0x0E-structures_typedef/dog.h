@@ -15,9 +15,9 @@ float age;
 char *owner;
 } dog_t;
 
-void init_dog(struct dog *h, char *name, float age, char *owner);
-void print_dog(struct dog *h);
-dog_t *other_dog(char *name, float age, char *owner);
-void free_dog(dog_t *h);
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
 
 #endif
