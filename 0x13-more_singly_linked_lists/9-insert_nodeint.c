@@ -18,7 +18,7 @@ unsigned int x = 1;
 if (head == NULL)
 return (NULL);
 
-new = malloc(sizeof(listint_t));
+new = (listint_t *)malloc(sizeof(listint_t));
 if (new == NULL)
 return (NULL);
 
