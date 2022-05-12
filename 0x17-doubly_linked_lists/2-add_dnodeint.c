@@ -16,12 +16,12 @@ d_node = malloc(sizeof(dlistint_t));
 if (d_node == NULL)
 return (NULL);
 
-d_node->n = strlen(d_node->n);
+d_node->n = n;
 d_node->next = (*head);
 d_node->prev = NULL;
 
 if (*head != NULL)
-*head->prev = d_node;
+(*head)->prev = d_node;
 
 *head =d_node;
 
