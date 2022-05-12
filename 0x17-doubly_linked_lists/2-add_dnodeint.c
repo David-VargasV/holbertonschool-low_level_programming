@@ -23,7 +23,7 @@ d_node->prev = NULL;
 if (*head != NULL)
 (*head)->prev = d_node;
 
-*head =d_node;
+*head = d_node;
 
 return (d_node);
 }
